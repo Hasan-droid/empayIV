@@ -1,0 +1,43 @@
+{
+    "intent": "CAPTURE",
+    "channel": "WEB_CHECKOUT",
+    "purchaseUnits": [
+      {
+        "customId": "",
+        "description": "emVAT 2021 Subscription",
+        "invoiceId": "Invoice:123/TIN:456",
+        "amount": {
+          "currencyCode": "AED",
+          "value": "105.00",
+          "breakdown": {
+            "itemTotal": {
+              "value": "100.00",
+              "currencyCode": "AED"
+            },
+            "taxTotal": {
+              "value": "5.00",
+              "currencyCode": "AED"
+            }
+          }
+        },
+        "payee": {
+          "billerId": "12001"
+        },
+        "items": [
+          {
+            "name": "emVAT",
+            "unitAmount": {
+              "currencyCode": "AED",
+              "value": "100.00"
+            },
+            "tax": {
+              "currencyCode": "AED",
+              "value": "5"
+            },
+            "quantity": 1,
+            "description": "subscription fee"
+          }
+        ]
+      }
+    ]
+  }

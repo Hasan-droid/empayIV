@@ -1,0 +1,21 @@
+{
+    "id": "IF0YJ5A6R3AG0G7LG",
+    "links": [
+        {
+            "href": "https://api.test.empay.ae/ordering/v1/orders/OMRPKNLY6CK8J5HHM",
+            "method": "GET",
+            "rel": "self"
+        },
+        {
+            "href": "https://app.test.empay.ae/checkout/checkoutnow/?token=OMRPKNLY6CK8J5HHM&client=emvat_test",
+            "method": "GET",
+            "rel": "approve"
+        },
+        {
+            "href": "https://app.test.empay.ae/checkout/result?token=OMRPKNLY6CK8J5HHM&client=emvat_test",
+            "method": "GET",
+            "rel": "result"
+        }
+    ],
+    "status": "CREATED"
+}
